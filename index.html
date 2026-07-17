@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Scholarship Eligibility Checker</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🎓 Scholarship Eligibility Checker</h1>
+
+<p class="subtitle">
+Check your scholarship eligibility in seconds.
+</p>
+
+<label>US GPA (4.00 Scale)</label>
+
+<input
+    type="number"
+    id="gpa"
+    min="0"
+    max="4"
+    step="0.01"
+    placeholder="Enter US GPA">
+
+<label>SAT Score</label>
+<input type="number" id="sat">
+
+<label>IELTS Score</label>
+<input type="number" id="ielts" step="0.5">
+
+<button onclick="checkScholarship()">
+Check Eligibility
+</button>
+
+<div class="result">
+
+<h2>Scholarship Report</h2>
+
+<hr>
+
+<p>Status</p>
+
+<h3 id="status">--</h3>
+
+<p>Chance</p>
+
+<h3 id="chance">--</h3>
+<hr>
+
+<p>Scholarship Score</p>
+<h3 id="score">--</h3>
+
+<hr>
+
+<p>Overall Profile Grade</p>
+<h3 id="grade">--</h3>
+
+<p>Recommendation</p>
+
+<h3 id="recommendation">--</h3>
+<hr>
+
+<p>Recommended Countries</p>
+<h3 id="countries">--</h3>
+
+<hr>
+
+<p>Scholarship Type</p>
+<h3 id="scholarshipType">--</h3>
+
+<hr>
+
+<p>Best Match Universities</p>
+<h3 id="universities">--</h3>
+
+</div>
+
+<div class="footer">
+
+Designed & Developed by
+<strong>Ashraful Ferdous Rafsun</strong>
+
+<br><br>
+
+© 2026 All Rights Reserved
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

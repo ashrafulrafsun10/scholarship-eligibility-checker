@@ -1,6 +1,6 @@
 # 🎓 Scholarship Eligibility Checker
 
-A modern web-based scholarship eligibility checker that helps students quickly determine whether they meet scholarship requirements based on their academic profile, GPA, SAT score, IELTS score, and financial background.
+A modern web-based scholarship eligibility checker that helps students quickly determine their eligibility for scholarships based on GPA, SAT score, IELTS score, academic profile, and financial background.
 
 ---
 
@@ -17,9 +17,9 @@ A modern web-based scholarship eligibility checker that helps students quickly d
 - 📚 SAT Score Analysis
 - 🌍 IELTS Score Evaluation
 - 💰 Financial Background Assessment
-- ⚡ Instant Eligibility Result
+- ⚡ Instant Eligibility Results
 - 📱 Fully Responsive Design
-- 🎨 Clean & Modern User Interface
+- 🎨 Modern User Interface
 - 💻 Browser-Based Application
 
 ---
@@ -44,7 +44,8 @@ scholarship-eligibility-checker
 ├── README.md
 └── screenshots
     ├── Screenshot (77).png
-    └── Screenshot (78).png
+    ├── Screenshot (78).png
+    └── Screenshot (79).png
 ```
 
 ---
@@ -57,9 +58,15 @@ scholarship-eligibility-checker
 
 ---
 
-### 🎓 Eligibility Result
+### 🎓 Scholarship Eligibility Checker
 
-![Eligibility Result](screenshots/Screenshot%20(78).png)
+![Eligibility Checker](screenshots/Screenshot%20(78).png)
+
+---
+
+### 📊 Eligibility Result
+
+![Result](screenshots/Screenshot%20(79).png)
 
 ---
 
@@ -71,13 +78,13 @@ Clone the repository
 git clone https://github.com/ashrafulrafsun10/scholarship-eligibility-checker.git
 ```
 
-Go to the project folder
+Open the project
 
 ```bash
 cd scholarship-eligibility-checker
 ```
 
-Run the application
+Run
 
 Simply open **index.html** in your preferred web browser.
 
@@ -85,11 +92,11 @@ Simply open **index.html** in your preferred web browser.
 
 ## 🎯 Use Cases
 
-- High school students
-- College applicants
-- Scholarship seekers
-- International students
-- Education consultants
+- High School Students
+- College Applicants
+- Scholarship Seekers
+- International Students
+- Education Consultants
 
 ---
 
@@ -108,4 +115,4 @@ https://github.com/ashrafulrafsun10
 
 ---
 
-⭐ If you found this project useful, please consider giving it a **Star** on GitHub.
+⭐ If you found this project useful, consider giving it a **Star** on GitHub.
